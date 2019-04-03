@@ -22,8 +22,8 @@
     "hapi": "18.x.x",
     "haute-couture": "3.x.x",
     "joi": "14.x.x",
-    "lalalambda": "0.0.2",
-    "mqtt": "^2.18.8",
+    "lalalambda": "0.0.3",
+    "mqtt": "2.x.x",
     "schmervice": "1.x.x",
     "toys": "2.x.x"
   },
