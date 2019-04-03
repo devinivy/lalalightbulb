@@ -23,6 +23,7 @@
     "haute-couture": "3.x.x",
     "joi": "14.x.x",
     "lalalambda": "0.0.2",
+    "mqtt": "^2.18.8",
     "schmervice": "1.x.x",
     "toys": "2.x.x"
   },
@@ -33,6 +34,7 @@
     "eslint-plugin-hapi": "4.x.x",
     "hpal-debug": "1.x.x",
     "lab": "18.x.x",
-    "serverless": "1.x.x"
+    "serverless": "1.x.x",
+    "serverless-dotenv-plugin": "^2.0.1"
   }
 }

@@ -31,7 +31,12 @@ module.exports = new Confidence.Store({
         plugins: [
             {
                 plugin: '../lib', // Main plugin
-                options: {}
+                options: {
+                    lightbulb: {
+                        mqtt: process.env.LIGHTBULB_MQTT,
+                        topic: process.env.LIGHTBULB_TOPIC
+                    }
+                }
             },
             {
                 plugin: {

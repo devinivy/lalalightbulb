@@ -1,0 +1,17 @@
+service: lalalightbulb
+
+plugins:
+  - lalalambda
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+custom:
+  dotenv:
+    path: server/.env
+    include:
+      - NODE_ENV
+      - LIGHTBULB_MQTT
+      - LIGHTBULB_TOPIC
